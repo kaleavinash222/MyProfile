@@ -2,45 +2,79 @@
 <html>
   <head>
     <title>css</title>
-        
-        <style>
-          #details{
-            color:crimson;
-            background-color: bisque;
-          }
-         </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     </head>
-  
-     <body>
-    <span id="details">
-    <i class="fa fa-user" aria-hidden="true"></i> Mohit Sharma
-    &nbsp;&nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i> 8666 777 222
-    &nbsp;&nbsp;&nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i> gajanan.kharat@gmail.com
- 
-    <br /><br />
-  </span>
+    <style>
+      header {
+        background-color: #70b5ca;
+      }
+      #fulname,
+      #number,
+      #mail #home,
+      #techstack,
+      #education,
+      #personal,
+      #contactus,
+      #hobbies {
+        margin-right: 20px;
+      }
+      #followme,
+      #linkedin,
+      #google,
+      #facebook,
+      #insta {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
 
-    <nav id="name">
-      <a href="home.html" target="frame">Home</a> &nbsp; &nbsp; &nbsp;
-      <a href="techStack.html" target="frame">TechStack</a> &nbsp; &nbsp;
-      &nbsp; <a href="educational.html" target="frame"> Education </a> &nbsp;
-      &nbsp; &nbsp; <a href="personal.html" target="frame"> Personal </a> &nbsp;
-      &nbsp; &nbsp;
-      <a href="contactUs.html" target="frame"> ContactUs </a> &nbsp;
-      
+  <body>
+    <header>
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <span id="fulname">Mohit Sharma</span>
+      <i class="fa fa-phone-square" aria-hidden="true"></i>
+      <span id="number">8666 777 222</span>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <span id="mail">gajanan.kharat@gmail.com</span>
+    </header>
+    <br />
+
+    <nav>
+      <span id="home"><a href="home.html" target="frame">Home</a></span>
+      <span id="techstack">
+        <a href="teckStack.html" target="_">TechStack</a>
+      </span>
+      <span id="education">
+        <a href="educational.html" target="frame"> Education </a>
+      </span>
+      <span id="personal">
+        <a href="personal.html" target="frame"> Personal </a>
+      </span>
+      <span id="hobbies">
+        <a href="hobbies.html" target="frame">Hobbies</a>
+      </span>
+      <span id="contactus">
+        <a href="contactUs.html" target="frame"> ContactUs </a>
+      </span>
     </nav>
     <br />
 
-    <iframe width="1010" height="500" src="home.html" sr></iframe><br /><br />
+    <iframe width="1010" height="400" src="home.html"></iframe><br /><br />
 
-    Follow me &nbsp;&nbsp;&nbsp;
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;
-    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    <span id="followme"><strong>Follow me </strong></span>
+    <span id="linkedin">
+      <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+    <span id="insta">
+      <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </span>
+    <span id="google">
+      <a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a>
+    </i></span>
+    <span id="facebook">
+      <a href="https://www.facebook.com/login/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    </span>
   </body>
 </html>
