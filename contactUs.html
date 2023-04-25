@@ -2,32 +2,67 @@
 <html>
     <head>
         <title>contact us</title>
-    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+       
+<style>
+   *{
+                font-family: 'Roboto Slab', serif;
+            }
+            label{
+                color: rgb(197, 60, 101);
+                font-size: large;
+            }
+            input{
+                width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                
+                color: cadetblue;
+
+            }
+            input[type="text"]{
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                color: chocolate;
+            }
+            #submit:hover{
+                background-color: burlywood;
+            }
+            button[type="reset"]:hover{
+                background-color: burlywood;
+            }
+</style>
+
+</head>
     <body>
         <h2>Contact Us</h2>
         <form action="">
             <table>
             <tr>
-            <td><strong><label for="FullName">FullName :</label> </strong></td>
+            <td><strong><label>FullName :</label> </strong></td>
             <td><input type="text"></td><br>
             </tr>
 
             <tr>
-            <td><strong><label for="mobile">Mobile No :</label></strong></td>
+            <td><strong><label>Mobile No :</label></strong></td>
             <td><input type="number"></td>
            </tr>
 
            <tr>
-            <td><strong><label for="email">Email : </label></strong></td>
+            <td><strong><label>Email : </label></strong></td>
             <td><input type="email" placeholder="Ex.abcd@12345"></td>
            </tr>
 
            <tr>
-            <td><strong><label for="">Enquiry : </label></strong></td>
+            <td><strong><label>Enquiry : </label></strong></td>
             <td><textarea name="" id="" cols="70" rows="10"></textarea></td>
         </tr>
         <tr>
-            <td><button type="submit">Submit</button></td>
+            <td><button type="submit" id="submit">Submit</button></td>
             <td> <button type="reset">Clear</button>  </td>
           </tr>
             </table>

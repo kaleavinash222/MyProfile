@@ -2,79 +2,66 @@
 <html>
   <head>
     <title>css</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
 
     <style>
-      header {
-        background-color: #70b5ca;
+      header{
+        background-color: aquamarine;
+        padding: 10px;
+        width: 980px;
+        font-family: 'Crimson Text', serif;
       }
-      #fulname,
-      #number,
-      #mail #home,
-      #techstack,
-      #education,
-      #personal,
-      #contactus,
-      #hobbies {
+      .userInfo{
+          font-size: large;
+          margin-right: 50px;
+         }
+       a{
+        color: blue;
         margin-right: 20px;
+        text-transform: uppercase;
       }
-      #followme,
-      #linkedin,
-      #google,
-      #facebook,
-      #insta {
-        margin-right: 20px;
+      #followme{
+        margin-right:20px ;
       }
+      
     </style>
   </head>
 
   <body>
     <header>
       <i class="fa fa-user" aria-hidden="true"></i>
-      <span id="fulname">Mohit Sharma</span>
+      <span class="userInfo">Mohit Sharma</span>
+      
       <i class="fa fa-phone-square" aria-hidden="true"></i>
-      <span id="number">8666 777 222</span>
+      <span class="userInfo">8666 777 222</span>
+      
       <i class="fa fa-envelope" aria-hidden="true"></i>
-      <span id="mail">gajanan.kharat@gmail.com</span>
+      <span class="userInfo">gajanan.kharat@gmail.com</span>
     </header>
     <br />
 
     <nav>
-      <span id="home"><a href="home.html" target="frame">Home</a></span>
-      <span id="techstack">
-        <a href="teckStack.html" target="_">TechStack</a>
-      </span>
-      <span id="education">
+        <a href="home.html" target="frame">Home</a></span>
+        <a href="teckStack.html" target="frame">TechStack</a>
         <a href="educational.html" target="frame"> Education </a>
-      </span>
-      <span id="personal">
         <a href="personal.html" target="frame"> Personal </a>
-      </span>
-      <span id="hobbies">
         <a href="hobbies.html" target="frame">Hobbies</a>
-      </span>
-      <span id="contactus">
         <a href="contactUs.html" target="frame"> ContactUs </a>
-      </span>
     </nav>
     <br />
 
-    <iframe width="1010" height="400" src="home.html"></iframe><br /><br />
+    <iframe name="frame" width="1010" height="450" src="home.html"></iframe><br /><br />
 
     <span id="followme"><strong>Follow me </strong></span>
-    <span id="linkedin">
-      <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
-    <span id="insta">
+      <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
       <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    </span>
-    <span id="google">
       <a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a>
-    </i></span>
-    <span id="facebook">
       <a href="https://www.facebook.com/login/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-    </span>
   </body>
 </html>
+
+
